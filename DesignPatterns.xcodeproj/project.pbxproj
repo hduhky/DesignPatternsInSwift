@@ -13,20 +13,32 @@
 		26C643A82990F78E0036DD42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C643A62990F78E0036DD42 /* Main.storyboard */; };
 		26C643AA2990F7900036DD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C643A92990F7900036DD42 /* Assets.xcassets */; };
 		26C643AD2990F7900036DD42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C643AB2990F7900036DD42 /* LaunchScreen.storyboard */; };
-		26C643B82990F7900036DD42 /* DesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643B72990F7900036DD42 /* DesignPatternsTests.swift */; };
-		26C643C22990F7900036DD42 /* DesignPatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643C12990F7900036DD42 /* DesignPatternsUITests.swift */; };
-		26C643C42990F7900036DD42 /* DesignPatternsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643C32990F7900036DD42 /* DesignPatternsUITestsLaunchTests.swift */; };
+		26C643B82990F7900036DD42 /* FactoryMethodRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643B72990F7900036DD42 /* FactoryMethodRealWorld.swift */; };
+		26C643D12990F8130036DD42 /* AbstractFactoryRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643D02990F8130036DD42 /* AbstractFactoryRealWorld.swift */; };
+		26C643D32990F85B0036DD42 /* BuilderRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643D22990F85B0036DD42 /* BuilderRealWorld.swift */; };
+		26C643D52990F89E0036DD42 /* PrototypeRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643D42990F89E0036DD42 /* PrototypeRealWorld.swift */; };
+		26C643D72990F8C90036DD42 /* SingletonRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643D62990F8C90036DD42 /* SingletonRealWorld.swift */; };
+		26C643DB2990F9710036DD42 /* AdapterRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643DA2990F9710036DD42 /* AdapterRealWorld.swift */; };
+		26C643DD2990F9DA0036DD42 /* BridgeRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643DC2990F9DA0036DD42 /* BridgeRealWorld.swift */; };
+		26C643DF2990FA130036DD42 /* CompositeRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643DE2990FA130036DD42 /* CompositeRealWorld.swift */; };
+		26C643E12990FAA60036DD42 /* DecoratorRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643E02990FAA60036DD42 /* DecoratorRealWorld.swift */; };
+		26C643E32990FB1B0036DD42 /* FacadeRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643E22990FB1B0036DD42 /* FacadeRealWorld.swift */; };
+		26C643E52990FB2F0036DD42 /* FlyweightRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643E42990FB2F0036DD42 /* FlyweightRealWorld.swift */; };
+		26C643E72990FB750036DD42 /* ProxyRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643E62990FB750036DD42 /* ProxyRealWorld.swift */; };
+		26C643EA2990FC340036DD42 /* ChainOfResponsibilityRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643E92990FC340036DD42 /* ChainOfResponsibilityRealWorld.swift */; };
+		26C643EC2990FC670036DD42 /* CommandRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643EB2990FC670036DD42 /* CommandRealWorld.swift */; };
+		26C643EE2990FC7E0036DD42 /* IteratorRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643ED2990FC7E0036DD42 /* IteratorRealWorld.swift */; };
+		26C643F02990FC960036DD42 /* MediatorRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643EF2990FC960036DD42 /* MediatorRealWorld.swift */; };
+		26C643F22990FCE50036DD42 /* MementoRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643F12990FCE50036DD42 /* MementoRealWorld.swift */; };
+		26C643F42990FD260036DD42 /* ObserverRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643F32990FD260036DD42 /* ObserverRealWorld.swift */; };
+		26C643F62990FD3D0036DD42 /* StateRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643F52990FD3D0036DD42 /* StateRealWorld.swift */; };
+		26C643F82990FD550036DD42 /* StrategyRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643F72990FD550036DD42 /* StrategyRealWorld.swift */; };
+		26C643FA2990FD6E0036DD42 /* TemplateMethodRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643F92990FD6E0036DD42 /* TemplateMethodRealWorld.swift */; };
+		26C643FC2990FDAD0036DD42 /* VisitorRealWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C643FB2990FDAD0036DD42 /* VisitorRealWorld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		26C643B42990F7900036DD42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26C643952990F78E0036DD42 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 26C6439C2990F78E0036DD42;
-			remoteInfo = DesignPatterns;
-		};
-		26C643BE2990F7900036DD42 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 26C643952990F78E0036DD42 /* Project object */;
 			proxyType = 1;
@@ -45,10 +57,28 @@
 		26C643AC2990F7900036DD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26C643AE2990F7900036DD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26C643B32990F7900036DD42 /* DesignPatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		26C643B72990F7900036DD42 /* DesignPatternsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsTests.swift; sourceTree = "<group>"; };
-		26C643BD2990F7900036DD42 /* DesignPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		26C643C12990F7900036DD42 /* DesignPatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsUITests.swift; sourceTree = "<group>"; };
-		26C643C32990F7900036DD42 /* DesignPatternsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26C643B72990F7900036DD42 /* FactoryMethodRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodRealWorld.swift; sourceTree = "<group>"; };
+		26C643D02990F8130036DD42 /* AbstractFactoryRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryRealWorld.swift; sourceTree = "<group>"; };
+		26C643D22990F85B0036DD42 /* BuilderRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderRealWorld.swift; sourceTree = "<group>"; };
+		26C643D42990F89E0036DD42 /* PrototypeRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeRealWorld.swift; sourceTree = "<group>"; };
+		26C643D62990F8C90036DD42 /* SingletonRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonRealWorld.swift; sourceTree = "<group>"; };
+		26C643DA2990F9710036DD42 /* AdapterRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterRealWorld.swift; sourceTree = "<group>"; };
+		26C643DC2990F9DA0036DD42 /* BridgeRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeRealWorld.swift; sourceTree = "<group>"; };
+		26C643DE2990FA130036DD42 /* CompositeRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeRealWorld.swift; sourceTree = "<group>"; };
+		26C643E02990FAA60036DD42 /* DecoratorRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorRealWorld.swift; sourceTree = "<group>"; };
+		26C643E22990FB1B0036DD42 /* FacadeRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeRealWorld.swift; sourceTree = "<group>"; };
+		26C643E42990FB2F0036DD42 /* FlyweightRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightRealWorld.swift; sourceTree = "<group>"; };
+		26C643E62990FB750036DD42 /* ProxyRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyRealWorld.swift; sourceTree = "<group>"; };
+		26C643E92990FC340036DD42 /* ChainOfResponsibilityRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityRealWorld.swift; sourceTree = "<group>"; };
+		26C643EB2990FC670036DD42 /* CommandRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandRealWorld.swift; sourceTree = "<group>"; };
+		26C643ED2990FC7E0036DD42 /* IteratorRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorRealWorld.swift; sourceTree = "<group>"; };
+		26C643EF2990FC960036DD42 /* MediatorRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorRealWorld.swift; sourceTree = "<group>"; };
+		26C643F12990FCE50036DD42 /* MementoRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoRealWorld.swift; sourceTree = "<group>"; };
+		26C643F32990FD260036DD42 /* ObserverRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverRealWorld.swift; sourceTree = "<group>"; };
+		26C643F52990FD3D0036DD42 /* StateRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateRealWorld.swift; sourceTree = "<group>"; };
+		26C643F72990FD550036DD42 /* StrategyRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyRealWorld.swift; sourceTree = "<group>"; };
+		26C643F92990FD6E0036DD42 /* TemplateMethodRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodRealWorld.swift; sourceTree = "<group>"; };
+		26C643FB2990FDAD0036DD42 /* VisitorRealWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorRealWorld.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +96,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26C643BA2990F7900036DD42 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +104,6 @@
 			children = (
 				26C6439F2990F78E0036DD42 /* DesignPatterns */,
 				26C643B62990F7900036DD42 /* DesignPatternsTests */,
-				26C643C02990F7900036DD42 /* DesignPatternsUITests */,
 				26C6439E2990F78E0036DD42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +113,6 @@
 			children = (
 				26C6439D2990F78E0036DD42 /* DesignPatterns.app */,
 				26C643B32990F7900036DD42 /* DesignPatternsTests.xctest */,
-				26C643BD2990F7900036DD42 /* DesignPatternsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,18 +134,54 @@
 		26C643B62990F7900036DD42 /* DesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
-				26C643B72990F7900036DD42 /* DesignPatternsTests.swift */,
+				26C643D82990F8E50036DD42 /* Creational Patterns */,
+				26C643D92990F93D0036DD42 /* Structural Patterns */,
+				26C643E82990FBA80036DD42 /* Behavioral Patterns */,
 			);
 			path = DesignPatternsTests;
 			sourceTree = "<group>";
 		};
-		26C643C02990F7900036DD42 /* DesignPatternsUITests */ = {
+		26C643D82990F8E50036DD42 /* Creational Patterns */ = {
 			isa = PBXGroup;
 			children = (
-				26C643C12990F7900036DD42 /* DesignPatternsUITests.swift */,
-				26C643C32990F7900036DD42 /* DesignPatternsUITestsLaunchTests.swift */,
+				26C643B72990F7900036DD42 /* FactoryMethodRealWorld.swift */,
+				26C643D02990F8130036DD42 /* AbstractFactoryRealWorld.swift */,
+				26C643D22990F85B0036DD42 /* BuilderRealWorld.swift */,
+				26C643D42990F89E0036DD42 /* PrototypeRealWorld.swift */,
+				26C643D62990F8C90036DD42 /* SingletonRealWorld.swift */,
 			);
-			path = DesignPatternsUITests;
+			path = "Creational Patterns";
+			sourceTree = "<group>";
+		};
+		26C643D92990F93D0036DD42 /* Structural Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				26C643DA2990F9710036DD42 /* AdapterRealWorld.swift */,
+				26C643DC2990F9DA0036DD42 /* BridgeRealWorld.swift */,
+				26C643DE2990FA130036DD42 /* CompositeRealWorld.swift */,
+				26C643E02990FAA60036DD42 /* DecoratorRealWorld.swift */,
+				26C643E22990FB1B0036DD42 /* FacadeRealWorld.swift */,
+				26C643E42990FB2F0036DD42 /* FlyweightRealWorld.swift */,
+				26C643E62990FB750036DD42 /* ProxyRealWorld.swift */,
+			);
+			path = "Structural Patterns";
+			sourceTree = "<group>";
+		};
+		26C643E82990FBA80036DD42 /* Behavioral Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				26C643E92990FC340036DD42 /* ChainOfResponsibilityRealWorld.swift */,
+				26C643EB2990FC670036DD42 /* CommandRealWorld.swift */,
+				26C643ED2990FC7E0036DD42 /* IteratorRealWorld.swift */,
+				26C643EF2990FC960036DD42 /* MediatorRealWorld.swift */,
+				26C643F12990FCE50036DD42 /* MementoRealWorld.swift */,
+				26C643F32990FD260036DD42 /* ObserverRealWorld.swift */,
+				26C643F52990FD3D0036DD42 /* StateRealWorld.swift */,
+				26C643F72990FD550036DD42 /* StrategyRealWorld.swift */,
+				26C643F92990FD6E0036DD42 /* TemplateMethodRealWorld.swift */,
+				26C643FB2990FDAD0036DD42 /* VisitorRealWorld.swift */,
+			);
+			path = "Behavioral Patterns";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +222,6 @@
 			productReference = 26C643B32990F7900036DD42 /* DesignPatternsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		26C643BC2990F7900036DD42 /* DesignPatternsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 26C643CD2990F7900036DD42 /* Build configuration list for PBXNativeTarget "DesignPatternsUITests" */;
-			buildPhases = (
-				26C643B92990F7900036DD42 /* Sources */,
-				26C643BA2990F7900036DD42 /* Frameworks */,
-				26C643BB2990F7900036DD42 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				26C643BF2990F7900036DD42 /* PBXTargetDependency */,
-			);
-			name = DesignPatternsUITests;
-			productName = DesignPatternsUITests;
-			productReference = 26C643BD2990F7900036DD42 /* DesignPatternsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +236,6 @@
 						CreatedOnToolsVersion = 14.1;
 					};
 					26C643B22990F7900036DD42 = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 26C6439C2990F78E0036DD42;
-					};
-					26C643BC2990F7900036DD42 = {
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = 26C6439C2990F78E0036DD42;
 					};
@@ -221,7 +256,6 @@
 			targets = (
 				26C6439C2990F78E0036DD42 /* DesignPatterns */,
 				26C643B22990F7900036DD42 /* DesignPatternsTests */,
-				26C643BC2990F7900036DD42 /* DesignPatternsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,13 +272,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		26C643B12990F7900036DD42 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26C643BB2990F7900036DD42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,16 +295,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26C643B82990F7900036DD42 /* DesignPatternsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26C643B92990F7900036DD42 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26C643C22990F7900036DD42 /* DesignPatternsUITests.swift in Sources */,
-				26C643C42990F7900036DD42 /* DesignPatternsUITestsLaunchTests.swift in Sources */,
+				26C643E32990FB1B0036DD42 /* FacadeRealWorld.swift in Sources */,
+				26C643E72990FB750036DD42 /* ProxyRealWorld.swift in Sources */,
+				26C643DB2990F9710036DD42 /* AdapterRealWorld.swift in Sources */,
+				26C643F02990FC960036DD42 /* MediatorRealWorld.swift in Sources */,
+				26C643D32990F85B0036DD42 /* BuilderRealWorld.swift in Sources */,
+				26C643F82990FD550036DD42 /* StrategyRealWorld.swift in Sources */,
+				26C643DF2990FA130036DD42 /* CompositeRealWorld.swift in Sources */,
+				26C643F62990FD3D0036DD42 /* StateRealWorld.swift in Sources */,
+				26C643E52990FB2F0036DD42 /* FlyweightRealWorld.swift in Sources */,
+				26C643DD2990F9DA0036DD42 /* BridgeRealWorld.swift in Sources */,
+				26C643FA2990FD6E0036DD42 /* TemplateMethodRealWorld.swift in Sources */,
+				26C643D52990F89E0036DD42 /* PrototypeRealWorld.swift in Sources */,
+				26C643EC2990FC670036DD42 /* CommandRealWorld.swift in Sources */,
+				26C643D72990F8C90036DD42 /* SingletonRealWorld.swift in Sources */,
+				26C643B82990F7900036DD42 /* FactoryMethodRealWorld.swift in Sources */,
+				26C643FC2990FDAD0036DD42 /* VisitorRealWorld.swift in Sources */,
+				26C643EA2990FC340036DD42 /* ChainOfResponsibilityRealWorld.swift in Sources */,
+				26C643E12990FAA60036DD42 /* DecoratorRealWorld.swift in Sources */,
+				26C643F42990FD260036DD42 /* ObserverRealWorld.swift in Sources */,
+				26C643D12990F8130036DD42 /* AbstractFactoryRealWorld.swift in Sources */,
+				26C643F22990FCE50036DD42 /* MementoRealWorld.swift in Sources */,
+				26C643EE2990FC7E0036DD42 /* IteratorRealWorld.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +327,6 @@
 			isa = PBXTargetDependency;
 			target = 26C6439C2990F78E0036DD42 /* DesignPatterns */;
 			targetProxy = 26C643B42990F7900036DD42 /* PBXContainerItemProxy */;
-		};
-		26C643BF2990F7900036DD42 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 26C6439C2990F78E0036DD42 /* DesignPatterns */;
-			targetProxy = 26C643BE2990F7900036DD42 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -526,42 +560,6 @@
 			};
 			name = Release;
 		};
-		26C643CE2990F7900036DD42 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N9HHE36XQ8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hduhky.DesignPatternsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DesignPatterns;
-			};
-			name = Debug;
-		};
-		26C643CF2990F7900036DD42 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N9HHE36XQ8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hduhky.DesignPatternsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DesignPatterns;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,15 +586,6 @@
 			buildConfigurations = (
 				26C643CB2990F7900036DD42 /* Debug */,
 				26C643CC2990F7900036DD42 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		26C643CD2990F7900036DD42 /* Build configuration list for PBXNativeTarget "DesignPatternsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26C643CE2990F7900036DD42 /* Debug */,
-				26C643CF2990F7900036DD42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
